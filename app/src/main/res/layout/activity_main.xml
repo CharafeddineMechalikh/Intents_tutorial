@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter a message to broadcast" />
+
+    <Button
+        android:id="@+id/broadcastButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Broadcast Message"
+        android:layout_below="@id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/invokeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/broadcastButton"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Open Next Activity" />
+
+    <Button
+        android:id="@+id/invokeButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/broadcastButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="164dp"
+        android:text="Call a number" />
+
+    <Button
+        android:id="@+id/invokeButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/broadcastButton"
+        android:layout_marginTop="225dp"
+        android:layout_centerHorizontal="true"
+        android:text="Launch Activity for Result" />
+
+    <Button
+        android:id="@+id/invokeButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/broadcastButton"
+        android:layout_marginTop="96dp"
+        android:layout_centerHorizontal="true"
+        android:text="Open a web page" />
+
+    <Button
+        android:id="@+id/mButtonEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/broadcastButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="289dp"
+        android:text="Send an Email" />
+</RelativeLayout>
