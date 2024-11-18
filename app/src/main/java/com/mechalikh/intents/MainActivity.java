@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -52,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // Create an Intent to broadcast a message
                 Intent intent = new Intent("com.mechalikh.broadcast");
-                intent.putExtra("message", "Hello from MainActivity!");
+                intent.putExtra("message", ((EditText)findViewById(R.id.editText)).getText().toString());
 
                 // Send the broadcast
                 sendBroadcast(intent);
